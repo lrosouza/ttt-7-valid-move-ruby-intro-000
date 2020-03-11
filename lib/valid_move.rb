@@ -6,7 +6,7 @@ def valid_move?(index)
 	#if move is invalid
 	elsif position_taken?(index) == true
 		return false
-	elsif index.between?(0, 8) == false 
+	elsif index.between?(0, 8) == false
 		return false
 	end
 end
